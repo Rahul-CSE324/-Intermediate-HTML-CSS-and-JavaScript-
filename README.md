@@ -7,16 +7,16 @@ It builds upon foundational skills in HTML, CSS, and JavaScript to create more i
 ## ✨ Features Covered
 
 - ✅ HTML Basics: Tags, Forms, Tables, Semantic Elements
-- 🎨 CSS Styling: Flexbox, Grid, Media Queries, Animation
+- 🎨 CSS Styling: chaaptch, Media Queries, Animation, Transitions
 - ⚙️ JavaScript: DOM Manipulation, Event Handling, Basic Logic
-- 🧠 Mini Projects: 
-  - Portfolio website
+- 🧠 Mini Projects and Practice Tasks
+
 
 ## 🛠 Technologies Used
 
 - **HTML**
 - **CSS**
-- **JavaScript*
+- **JavaScript**
 
 ## 📸 Demo Preview
 
@@ -29,3 +29,6 @@ Email:
 LinkedIn:      
 <a href="https://www.linkedin.com/in/rahul-das-2770a9330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">RAHUL DAS</a>
 
+
+📜 License
+This project is open source and free to use for learning and development purposes.

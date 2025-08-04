@@ -6,7 +6,7 @@ It builds upon foundational skills in HTML, CSS, and JavaScript to create more i
 
 ## ✨ Features Covered
 
-- ✅ HTML Basics: Tags, Forms, Tables, Semantic Elements
+- ✅ HTML Basics: Tags, div, section, Tables, Semantic Elements
 - 🎨 CSS Styling: chaaptch, Media Queries, Animation, Transitions
 - ⚙️ JavaScript: DOM Manipulation, Event Handling, Basic Logic
 - 🧠 Mini Projects and Practice Tasks

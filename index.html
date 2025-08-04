@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>login Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="matrixCanvas"></canvas>
+
+  <!-- Login Screen -->
+  <section id="loginScreen" class="login-screen">
+    <div class="login-box">
+    <h2> Login </h2>
+    <div class="input-box">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter username" />
+    </div>
+    <div class="input-box">
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" />
+    </div>
+    <div class="captcha-box">
+      <div class="captcha" id="captchaText"></div>
+      <button type="button" onclick="generateCaptcha()">↻</button>
+    </div>
+    <div class="input-box">
+      <input type="text" id="captchaInput" placeholder="Enter captcha" />
+  </div> 
+    <button id="loginBtn">login</button>
+  </section>
+
+  <!-- Main App (hidden initially) -->
+  <div id="mainApp" class="fade-out hidden">
+    <header class="nav">
+      <h1>Working Dashboard</h1>
+    </header>
+
+    <main class="container">
+      <!-- To-Do Section -->
+      <section class="card glass">
+        <h2>Work List</h2>
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="card glass">
+        <h2>Contact Form</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+          <label>Name:<input type="text" id="name" required></label>
+          <label>Email:<input type="email" id="email" required></label>
+          <label>Message:<textarea id="message" required></textarea></label>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
